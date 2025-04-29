@@ -1,7 +1,7 @@
 {
-  "name": "prog6bt1",
+  "name": "prog4bt4",
   "version": "1.0.0",
-  "description": "BackEnd Administracion de un Rancho",
+  "description": "BackEnd Control de una heladería",
   "main": "dist/server.js",
   "scripts": {
     "build-ts": "tsc",
@@ -12,7 +12,7 @@
     "watch-ts": "tsc -w"
   },
   "keywords": [],
-  "author": "Prog6bT1",
+  "author": "Prog4bT4",
   "license": "GNU",
   "dependencies": {
     "body-parser": "^1.20.3",
