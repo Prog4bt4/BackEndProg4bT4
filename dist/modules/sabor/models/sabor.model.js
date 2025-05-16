@@ -2,13 +2,13 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
-const saborSchema = new Schema({
+const SaborSchema = new Schema({
     sabor: {
         type: String,
         required: [true, 'sabor required'],
         unique: true
     }
 });
-const sabor = mongoose.model("sabor", saborSchema);
-exports.default = sabor;
+const Sabor = mongoose.model("Sabor", SaborSchema);
+exports.default = Sabor;
 //# sourceMappingURL=sabor.model.js.map

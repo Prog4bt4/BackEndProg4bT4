@@ -1,11 +1,11 @@
 import * as mongoose from 'mongoose';
 const Schema = mongoose.Schema;
 
-export interface Isabor extends mongoose.Document {  
+export interface ISabor extends mongoose.Document {  
     sabor: string;
 }
 
- const saborSchema = new Schema(
+ const SaborSchema = new Schema(
     {
         sabor: {
             type: String,
@@ -16,5 +16,5 @@ export interface Isabor extends mongoose.Document {
     
  );
 
-const sabor = mongoose.model<Isabor>("sabor", saborSchema);
-export default sabor;
+const Sabor = mongoose.model<ISabor>("Sabor", SaborSchema);
+export default Sabor;
